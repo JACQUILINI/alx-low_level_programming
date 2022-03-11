@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*
+ * main - main block
+ * Descripttion: function to generate a random nummber
+ * and print if it is positive or negative or zero
+ * */
 int main(void)
 {
 	int n;
-	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
