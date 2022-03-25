@@ -1,22 +1,19 @@
 #include "main.h"
 /**
- * print_rev - function that prints a string in reverse
- * @s: string
+ * _puts - function prints a string
+ * @str: string
  * Return: nothing
  */
-void print_env(char *s)
+void _puts(char *str)
 {
 	int index;
 
 	index = 0;
 
-	while (s[index] != '\0')
+	while (str[index] != '\0')
 	{
+		_putchar(str[index]);
 		index++;
-	}
-	for (index = index - 1; index >= 0; index--)
-	{
-		_putchar(s[index]);
 	}
 	_putchar('\n');
 }
