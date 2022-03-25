@@ -4,7 +4,7 @@
  * @s: string
  * Return: nothing
  */
-void _puts(char *s)
+void print_env(char *s)
 {
 	int index;
 
