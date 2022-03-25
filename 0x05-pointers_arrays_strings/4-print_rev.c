@@ -1,4 +1,5 @@
-:x
+#include <stdio.h>
+#include "main.h"
 /**
  * _puts - function prints a string
  * @str: string
